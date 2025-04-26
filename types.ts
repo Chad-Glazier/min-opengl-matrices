@@ -34,3 +34,7 @@ export type Mat2 = [
 	[number, number]
 ]
 export type SquareMat = Mat2 | Mat3 | Mat4
+export type Shape = {
+	vertices: Float32Array,
+	indices: Uint16Array
+}

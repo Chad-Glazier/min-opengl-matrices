@@ -13,7 +13,7 @@ const projection = perspective(
 
 // transform world coordinates to camera space
 const view = compose(
-	rotationAbout("x", Math.PI / 3)
+	rotationAbout("x", Math.PI / 3),
 	translation(0, 0, 12)
 )
 
