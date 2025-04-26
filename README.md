@@ -7,8 +7,8 @@ This library provides a minimal suite of matrices suitable for use in generating
 const projection = perspective(
 	Math.PI / 4,	// field of view along the Y axis (in radians)
 	1920 / 1080,	// aspect ratio (width / height)
-	0.1,			// the near clipping plane (z = -0.1)
-	10				// the far clipping plane (z = -10)
+	0.1,		// the near clipping plane (z = -0.1)
+	10		// the far clipping plane (z = -10)
 )
 
 // transform world coordinates to camera space
@@ -21,7 +21,7 @@ const view = compose(
 const model = compose(
 	rotation(
 		[ 1, 1, 0 ],	// the axis of rotation
-		Math.PI / 2		// the amount to rotate (in radians)
+		Math.PI / 2	// the amount to rotate (in radians)
 	),
 	scaling(2, 2, 2)	// scale in each direction by 2
 )
