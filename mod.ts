@@ -17,3 +17,11 @@ export {
 	translation,
 	compose
 }
+
+import {
+	add
+} from "./matrix/wasm/add.wasm"
+
+export {
+	add
+}
