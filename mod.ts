@@ -17,11 +17,3 @@ export {
 	translation,
 	compose
 }
-
-import {
-	sphere
-} from "./shapes/index.ts"
-
-export {
-	sphere
-}

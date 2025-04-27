@@ -1,4 +1,4 @@
-import * as t from "./types.ts"
+import type * as t from "./types.ts"
 
 export function isPoint(x: unknown): x is t.Point {
 	if (!Array.isArray(x)) return false
