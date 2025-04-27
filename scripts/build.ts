@@ -1,5 +1,5 @@
 import { build, emptyDir } from "jsr:@deno/dnt"
-import { LIBRARY_NAME } from "./constants.ts"
+import { LIBRARY_NAME } from "../constants.ts"
 
 await emptyDir("./npm");
 

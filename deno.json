@@ -1,4 +1,7 @@
 {
+	"name": "@min-webgl/matrices",
+	"version": "0.1.0",
+	"exports": "./mod.ts",
 	"compilerOptions": {
 		"lib": ["dom", "dom.iterable", "dom.asynciterable", "deno.ns"]
 	},
