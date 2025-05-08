@@ -1,7 +1,5 @@
-import { LIBRARY_NAME } from "../constants.ts"
-
 function err(message: string) {
-	console.error(`${LIBRARY_NAME} error: ${message}.`)
+	console.error(`@min-webgl/matrices error: ${message}.`)
 }
 
 export default err

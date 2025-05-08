@@ -1,27 +1,20 @@
-import {
-	ImmutableMatrix,
-	perspective,
-	rotation,
-	rotationAbout,
-	scaling,
-	translation,
-	compose
-} from "./matrix/special_matrices/index.ts"
-
-export {
-	ImmutableMatrix,
-	perspective,
-	rotation,
-	rotationAbout,
-	scaling,
-	translation,
-	compose
-}
-
-import {
-	add
-} from "./matrix/wasm/add.wasm"
-
-export {
-	add
-}
+export { copy } from "./matrix/general_operations/copy.ts"
+export { map, map_i } from "./matrix/general_operations/map.ts"
+export { mult, mult_i } from "./matrix/general_operations/mult.ts"
+export { concat, concat_i } from "./matrix/matrix_operations/concat.ts"
+export { transform, transform_i } from "./matrix/general_operations/transform.ts"
+export { det } from "./matrix/matrix_operations/det.ts"
+export { inverse } from "./matrix/matrix_operations/inverse.ts"
+export { transpose, transpose_i } from "./matrix/matrix_operations/transpose.ts"
+export { identity } from "./matrix/special_matrices/identity.ts"
+export { perspective } from "./matrix/special_matrices/perspective.ts"
+export { rotate } from "./matrix/special_matrices/rotate.ts"
+export { scale } from "./matrix/special_matrices/scale.ts"
+export { translate } from "./matrix/special_matrices/translate.ts"
+export { add } from "./matrix/vector_operations/add.ts"
+export { cross } from "./matrix/vector_operations/cross.ts"
+export { displacement } from "./matrix/vector_operations/displacement.ts"
+export { dot } from "./matrix/vector_operations/dot.ts"
+export { norm, magnitude, len } from "./matrix/vector_operations/norm.ts"
+export { normalize } from "./matrix/vector_operations/normalize.ts"
+export { sub } from "./matrix/vector_operations/sub.ts"
