@@ -19,3 +19,13 @@ export { norm, magnitude, len } from "./matrix/vector_operations/norm.ts"
 export { normalize, normalize_i } from "./matrix/vector_operations/normalize.ts"
 export { sub, sub_i } from "./matrix/vector_operations/sub.ts"
 export { flatten } from "./matrix/misc/flatten.ts"
+
+export type {
+	Point, 
+	Vec, 
+	Vec4,
+	Mat4,
+	Mat3,
+	Mat2,
+	SquareMat
+} from "./types.ts"
