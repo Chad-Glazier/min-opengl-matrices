@@ -38,7 +38,7 @@ function minor(
 			}
 		}
 
-		return terms[0] * terms[2] - terms[1] * terms[3]
+		return terms[0] * terms[3] - terms[1] * terms[2]
 	}
 	case 4: {
 		let termsFound = 0
