@@ -1,5 +1,5 @@
 import { assertEquals } from "@std/assert/equals";
-import flatten from "../flatten.ts";
+import { flatten } from "../flatten.ts";
 
 Deno.test("flatten works", () => {
 
